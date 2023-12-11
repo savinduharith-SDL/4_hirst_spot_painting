@@ -12,6 +12,8 @@ pointer = t.Turtle()
 t.setworldcoordinates(-1, -1, 20, 20)
 t.colormode(255)
 pointer.penup()
+pointer.speed("fastest")
+pointer.hideturtle()
 
 #Get colors from the img
 colors = colorgram.extract('hirst_painting.jpg', 30)
